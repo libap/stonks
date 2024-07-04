@@ -78,7 +78,7 @@ const App = () => {
               <div className="w-full bg-[#fad258] py-4 rounded-2xl flex justify-around">
                 <button className="flex flex-col items-center gap-1">
                   <img src={bear} width={24} height={24} alt="High Voltage" />
-                  <span>Frens</span>
+                  <span>Friends</span>
                 </button>
                 <div className="h-[48px] w-[2px] bg-[#fddb6d]"></div>
                 <button className="flex flex-col items-center gap-1">
