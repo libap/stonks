@@ -1,0 +1,33 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  font-family: sans-serif;
+}
+
+@keyframes float {
+  0% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+  100% {
+    opacity: 0;
+    transform: translateY(-50px);
+  }
+}
+
+.bg-gradient-main {
+  background: linear-gradient(to top, rgb(0, 0, 0), #ff0000);
+}
+
+.bg-gradient-overlay {
+  background: linear-gradient(180deg, rgb(119, 0, 0) 0%, rgb(109, 0, 0) 40%, rgba(183, 39, 39, 0) 100%);
+}
+
+.radial-gradient-overlay {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background: radial-gradient(circle, #ff0000 0%, rgba(255, 255, 255, 0) 100%);
+}
